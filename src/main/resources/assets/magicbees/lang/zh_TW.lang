@@ -467,54 +467,54 @@ tc.research_category.MAGICBEES=Apimancy
 
 
 tc.research_name.MB_Root=Apimancy
-tc.research_text.MB_Root=[MB] Adding some sparkle to your buzz.
+tc.research_text.MB_Root=Adding some sparkle to your buzz.
 tc.research_page.MB_Root.1=Welcome to Apimancy! As a budding keeper of magical bees, there are a few things you should know before diving in. As your acceptance letter to the Academy of Austere Apimancers has mentioned, there are several new tools available to discover. These include some improved versions of Forestry tools, each with their own particular quirks and new frames for your apiaries. <LINE> You may also discover that there are new bee strains available to discover, if you can coax them to live in certain conditions. The Forestry Escritoire will help you discover them and become the envy
 tc.research_page.MB_Root.2=of your former, nonmagical colleagues. Also take note of the several new strains of wild bees that have appeared: these are the key to progressing into the magical lineages of your small winged charges.
 
 tc.research_name.MB_LoreFragment=卷章碎片
-tc.research_text.MB_LoreFragment=[MB] Research? More like BEEsearch!
+tc.research_text.MB_LoreFragment=Research? More like BEEsearch!
 tc.research_page.MB_LoreFragment.1=While experimenting with bee breeds, you may run accross a strain whose intellectual capabilities are a match for your own. Well, maybe, however unlikely that is. It's possible that they may unearth some obscure reference or a snippet of information that your great intellect may have missed while exploiting the greater mysteries of the universe. <BR> Should your helpful buzzing friends happen to locate this sort of item.magicbees.for you, it may be possible to item.magicbees.beecomb.ne the scraps together into something a little more cohesive.
 
 tc.research_name.MB_FrameMagic=魔法框架
-tc.research_text.MB_FrameMagic=[MB] Putting magic into beekeeping contexts
+tc.research_text.MB_FrameMagic=Putting magic into beekeeping contexts
 tc.research_page.MB_FrameMagic.1=The Magic Frame is a simple improvement over your regular, run-of-the-mill Untreated Frames. Still fairly simple to produce, it is capable of lasting three times longer in an apiary than Untreated Frames before becoming unuseable. The enchantable properties of the Magic Frame enable it to be used with several of the special essences involved in Apimancy where other frames would reject the infusion of magics.
 
 tc.research_name.MB_Scoop=奧法捕蜂網
-tc.research_text.MB_Scoop=[MB] Handled with care.
+tc.research_text.MB_Scoop=Handled with care.
 tc.research_page.MB_Scoop.1=Normal scoops are fragile, and prone to breakage. As an authority in Apimancy, you can do better. By adding some Thaumium to the handle, and lacing it with a measure of order, your new scoop will last up to three times longer! <BR> In addition, the Thaumium in the device will accept the Repair enchantment.
 
 tc.research_name.MB_Grafter=奧法剪枝器
-tc.research_text.MB_Grafter=[MB] Saplings for every occasion.
+tc.research_text.MB_Grafter=Saplings for every occasion.
 tc.research_page.MB_Grafter.1=Simple grafters are almost uselessly fragile, and while Proven Grafters are useful, the rarity of emeralds makes them annoying to procure. The solution? Make it yourself! <BR> The Thaumium Grafter, like the Thaumium Scoop, is a tougher, enchantable version of the most basic of the Arborimancer's tools. Use caution though, for although the Repair enchantment can be applied to the grafter, its unusual properties make it exhausting to use.
 
 tc.research_name.MB_EssenceLife=虛假之命源質
-tc.research_text.MB_EssenceLife=[MB] A rose by any other name. . .
+tc.research_text.MB_EssenceLife=A rose by any other name. . .
 tc.research_page.MB_EssenceLife.1=Simple to create by means of magic, this essence has unusual properties when exposed to bees. When item.magicbees.beecomb.ned with an everyday apiary frame, it has the effect of greatly extending the lifespan of a working hive.
 
 tc.research_name.MB_EssenceDeath=暗影之墓源質
-tc.research_text.MB_EssenceDeath=[MB] Not quite six feet under.
+tc.research_text.MB_EssenceDeath=Not quite six feet under.
 tc.research_page.MB_EssenceDeath.1=The Essence of a Shallow Grave channels the death of many of the ... "natural" creatures that wander the world: Zombies, Skeletons, those sorts of things. Exposing bees to this energy has the effect of making them slow and sluggish, and curtails the extent of their lifespan. Some Apimancers consider using frames imbued with these Essences to be cruel, however, others view it as a natrual part of normal beekeeping, with an eye to creating their perfect strain of bees sometime within THEIR lifetime. <BR> The Apimancer's Guild of Safety recommends handling them with telekenisis or very long tongs.
 
 tc.research_name.MB_EssenceArmor=恆久不滅源質
-tc.research_text.MB_EssenceArmor=[MB] The rubber to your glue
+tc.research_text.MB_EssenceArmor=The rubber to your glue
 tc.research_page.MB_EssenceArmor.1=This is the distilled essence of protection, bound to last forever, or until the magics stored within it weaken and eventually break. But until then, it's invincible. Mostly. <BR> While Magic Frames are useful, they are a tad fragile. This essence takes the enchantments you weave into Magic frames to an entirely new level. item.magicbees.beecomb.ne the essence with a magic frame, and it should have a vastly extended lifespan.
 
 tc.research_name.MB_EssenceUnstable=變換不定源質
-tc.research_text.MB_EssenceUnstable=[MB] Assured in unsurity
+tc.research_text.MB_EssenceUnstable=Assured in unsurity
 tc.research_page.MB_EssenceUnstable.1=Unstable by nature, the Essence of Fickle Permanence has the side effect of causing normally stable objects and systems to become somewhat unreliable. While this may mostly be a bad thing, Apimancers have discovered that exposing a hive to the essence has the duel effects of both causing the bees to work faster, and the offspring to have higher mutation rates.
 
 tc.research_name.MB_EssenceTime=迷失之時源質
-tc.research_text.MB_EssenceTime=[MB] No time like the unmoment
+tc.research_text.MB_EssenceTime=No time like the unmoment
 tc.research_page.MB_EssenceTime.1=Time is a fickle thing. It comes and it goes, but where exactly does it go to? As a respectable thaumaturge, it has become possible to trap these wasted moments and save them in a magical form. So, now that it is possible to collect extra time from the world, it seems only appropriate that they are used in a place that would be useful. It would be too dangerous to attempt to access these moments yourself for the moment, but perhaps it would be simple to allow your bees access to this untapped lump of time. <BR> By item.magicbees.beecomb.ning the essence with a Magic Frame as usual will suffice to extend the lifespan of bees in your keeping by several times.
 
 tc.research_name.MB_DimensionalSingularity=Dimensional Singularity
-tc.research_text.MB_DimensionalSingularity=[MB] Quantum flux for them, unlimited storage for you
+tc.research_text.MB_DimensionalSingularity=Quantum flux for them, unlimited storage for you
 tc.research_page.MB_DimensionalSingularity.1=While it may appear similar to the Portable Hole, it serves as a two-way link with another place, which is... probably uninhabited. It should be possible to utilize these singularities to store materials outside of your dimensional understanding - which of course means that they won't clutter up your inventory. As they are now, they are not particularly useful, but there should be ways to unlock their potential.
 
 tc.research_name.MB_EssenceOblivion=無盡漠視源質
-tc.research_text.MB_EssenceOblivion=[MB] Cast aside with malice
+tc.research_text.MB_EssenceOblivion=Cast aside with malice
 tc.research_page.MB_EssenceOblivion.1=Breeding bees for mutations can be aggrivating, especially whith long-lived species. With a little cleverness and only the slightest hint of smugness, you have found a way to utilize the Dimensional Singularity in a manner that only sucks away the life force of your tiny flying friends, bit by bit. Well, maybe significant amounts all at once. It's probably not going to affect them too badly. <BR> It may be somewhat tricky to obtain more than one of the §5Dragon Eggs§0 nessecary to obtain more than one of these. Perhaps there is a bee species that can assist with the limitation.
 
 tc.research_name.MB_VisAuraProvider=魔力蜂箱加速器
-tc.research_text.MB_VisAuraProvider=[MB]Vis? What about Bis?
+tc.research_text.MB_VisAuraProvider=Vis? What about Bis?
 tc.research_page.MB_VisAuraProvider.1=Blah blah blah.
