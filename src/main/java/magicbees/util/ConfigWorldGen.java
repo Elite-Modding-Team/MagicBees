@@ -17,7 +17,7 @@ public class ConfigWorldGen implements IConfiguration {
 
     public static boolean postGenNetherQuartz = true;
 
-    public static boolean postGenGlowstone = true;
+    public static boolean postGenQuartz = true;
 
     public static boolean postGenObsidianSpikes = true;
 
@@ -32,7 +32,7 @@ public class ConfigWorldGen implements IConfiguration {
     public void reload(Configuration config) {
         postGenRedstone = config.getBoolean("postGenRedstone", CATEGORY_WORLDGEN, postGenRedstone, getPostGenDesc("redstone", EnumHiveGen.DEEP, "Overworld"));
         postGenNetherQuartz = config.getBoolean("postGenNetherQuartz", CATEGORY_WORLDGEN, postGenNetherQuartz, getPostGenDesc("nether quartz", EnumHiveGen.INFERNAL, "Nether"));
-        postGenGlowstone = config.getBoolean("postGenGlowstone", CATEGORY_WORLDGEN, postGenGlowstone, getPostGenDesc("glowstone", EnumHiveGen.INFERNAL_OVERWORLD, "Overworld"));
+        postGenQuartz = config.getBoolean("postGenQuartz", CATEGORY_WORLDGEN, postGenQuartz, getPostGenDesc("quartz", EnumHiveGen.INFERNAL_OVERWORLD, "Overworld"));
         postGenObsidianSpikes = config.getBoolean("postGenObsidianSpikes", CATEGORY_WORLDGEN, postGenObsidianSpikes, "Enables/Disables the generation of Obsidian spikes under Oblivion hives in the End");
         postGenEndstone = config.getBoolean("postGenEndstone", CATEGORY_WORLDGEN, postGenEndstone, getPostGenDesc("redstone", EnumHiveGen.OBLIVION_OVERWORLD, "Overworld"));
     }

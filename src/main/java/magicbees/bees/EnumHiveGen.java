@@ -7,6 +7,8 @@ import forestry.api.apiculture.hives.IHiveGen;
 import magicbees.world.HiveGenNether;
 import magicbees.world.HiveGenOblivion;
 import magicbees.world.HiveGenUnderground;
+import thaumcraft.api.blocks.BlocksTC;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.init.Blocks;
@@ -55,16 +57,16 @@ public enum EnumHiveGen {
     INFERNAL_OVERWORLD(0.95f, new HiveGenUnderground(5, 13, 6), BiomeDictionary.Type.MAGICAL, BiomeDictionary.Type.HOT) {
         @Override
         void postGen(World world, Random random, BlockPos blockPos) {
-            if (!postGenGlowstone) {
+            if (!postGenQuartz) {
                 return;
             }
             for (EnumFacing facing : EnumFacing.VALUES) {
                 if (facing.getAxis() != EnumFacing.Axis.Y) {
-                    EnumHiveGen.spawnVein(world, blockPos.offset(facing), world.rand.nextInt(4) + 1, Blocks.GLOWSTONE.getDefaultState(), Blocks.STONE);
+                    EnumHiveGen.spawnVein(world, blockPos.offset(facing), world.rand.nextInt(4) + 1, BlocksTC.oreQuartz.getDefaultState(), Blocks.STONE);
                 } else {
                     BlockPos pos = blockPos.offset(facing);
                     if (HiveGenUnderground.isReplaceableOreGen(world.getBlockState(pos), world, pos, Blocks.STONE)) {
-                        world.setBlockState(pos, Blocks.GLOWSTONE.getDefaultState(), 2);
+                        world.setBlockState(pos, BlocksTC.oreQuartz.getDefaultState(), 2);
                     }
                 }
             }
