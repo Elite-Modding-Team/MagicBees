@@ -29,8 +29,10 @@ public class AuraHelper {
                 int x = ((int) (housing.getCoordinates().getX() + r1 * range.x)) >> 4;
                 int z = ((int) (housing.getCoordinates().getZ() + r2 * range.z)) >> 4;
                 AuraChunk auraChunk = AuraHandler.getAuraChunk(world.provider.getDimension(), x, z);
-                handler.accept(auraChunk);
-                world.getChunk(x, z).markDirty();
+                if(auraChunk != null && handler != null) {
+                    handler.accept(auraChunk);
+                    world.getChunk(x, z).markDirty();
+                }
             }
         }
     }
